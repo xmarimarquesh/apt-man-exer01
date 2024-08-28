@@ -12,10 +12,6 @@ function login() {
   card.style.padding = "20px";
   card.style.textAlign = "center";
 
-  const btnFechar = document.createElement("a");
-  btnFechar.href = "index.html";
-  btnFechar.textContent = "Fechar";
-
   document.body.appendChild(card);
   
   if (nome && senha && nome === "admin" && senha === "admin") {
@@ -33,6 +29,5 @@ function login() {
   } else {
     card.style.background = "red";
     card.textContent = "Nome ou senha incorretos. ";
-    card.appendChild(btnFechar);
   }
 }

@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
           const cardStatus = document.createElement("div");
           cardStatus.className = "card-text";
           cardStatus.textContent = ".";
-          if(produto.status == true){
+          if(produto.status === true){
             cardStatus.style.background = "green";
             }else{
                 cardStatus.style.background = "red"; 

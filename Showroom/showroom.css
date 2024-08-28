@@ -31,3 +31,8 @@ main{
     align-items: center;
     justify-content: center;
 }
+
+#produtos-container{
+    display: flex;
+    flex-direction: row;
+}
