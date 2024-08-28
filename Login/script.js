@@ -31,3 +31,16 @@ function login() {
     card.textContent = "Nome ou senha incorretos. ";
   }
 }
+
+function senha() {
+  let senha = document.getElementById("senha");
+  let img = document.getElementById("img");
+
+  if(senha.type === "text"){
+    senha.type = "password";
+    img.src = "../img/hide.png"
+  }else{
+    senha.type = "text";
+    img.src = "../img/view.png"
+  }
+}
