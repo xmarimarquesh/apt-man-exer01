@@ -32,9 +32,16 @@ document.addEventListener("DOMContentLoaded", function () {
           cardQuant.className = "card-text";
           cardQuant.textContent = "Quantidade: " + produto.quantidade;
 
-          const cardStatus = document.createElement("p");
+          const cardStatus = document.createElement("div");
           cardStatus.className = "card-text";
-          cardStatus.textContent = "Status: " + produto.status;
+          cardStatus.textContent = ".";
+          if(produto.status == true){
+            cardStatus.style.background = "green";
+            }else{
+                cardStatus.style.background = "red"; 
+          }
+          cardStatus.style.width = "15px";
+          cardStatus.style.borderRadius = "100%";
   
           cardBody.appendChild(cardTitle);
           cardBody.appendChild(cardText);
