@@ -3,18 +3,24 @@
     "id": 1,
     "descricao": "Produto 1",
     "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm3cExnsB3qat_a-YqS4zThCXsiR4TWk2f4_-Do7MXhw&s",
-    "preco": 10.0
+    "preco": 10.0,
+    "quantidade": 12,
+    "status": true
   },
   {
     "id": 2,
     "descricao": "Produto 2",
     "imagem": "https://storage.alboom.ninja/sites/7474/albuns/343827/fotografia-de-produtos-campinas-fotografo-publicidade-aloha-life-11.jpg?t=1541510096",
-    "preco": 20.0
+    "preco": 20.0,
+    "quantidade": 0,
+    "status": false
   },
   {
     "id": 3,
     "descricao": "Produto 3",
-    "imagem": "https://skinquer.com.br/cdn/shop/articles/blogordem.jpg?v=1687270129",
-    "preco": 30.0
+    "imagem": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/products/B48634/Dream-Des-Col-Splash-Amor-No-AR-200ml_B48634_V2-.jpg",
+    "preco": 30.0,
+    "quantidade": 16,
+    "status": true
   }
 ]

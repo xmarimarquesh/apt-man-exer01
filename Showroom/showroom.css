@@ -1,0 +1,29 @@
+.card img{
+    width: 200px;
+}
+
+
+.card{
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin: 3%;
+    padding: 3%;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
