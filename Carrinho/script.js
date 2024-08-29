@@ -42,7 +42,7 @@ $(document).ready(function () {
     });
 
     // Exibe o total em preço no elemento totalElement
-    totalElement.text(`Total: $${totalPreco}`);
+    totalElement.text(`Total: $${totalPreco.toFixed(2)}`);
   }
 
   // Função para remover um item do carrinho
