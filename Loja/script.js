@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const imagem = document.createElement("img");
         imagem.src = produto.imagem;
-        imagem.className = "card-img-top";
+        imagem.className = "card-img";
 
         const cardBody = document.createElement("div");
         cardBody.className = "card-body";

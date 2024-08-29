@@ -6,7 +6,6 @@
     font-family: "Roboto", sans-serif;
 }
 
-
 .card{
     border: 2px solid gray;
     display: flex;
@@ -35,4 +34,5 @@ main{
 #produtos-container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
