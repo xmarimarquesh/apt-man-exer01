@@ -73,7 +73,7 @@ button{
   cursor: pointer;
 }
 
-a{
+.container a{
   padding: 1%;
   border: none;
   background-color: rgb(255, 0, 170);
