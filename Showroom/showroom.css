@@ -6,33 +6,86 @@
     font-family: "Roboto", sans-serif;
 }
 
-.card{
-    border: 2px solid gray;
+  
+  body{
+      background-color: rgb(255, 230, 247);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin: 0;
+  }
+  
+  .card {
+      background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
-    margin: 3%;
-    padding: 3%;
-}
-
-.cards{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
-}
-
-main{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-#produtos-container{
+    padding: 1%;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .cards {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #produtos-container {
+      margin-top: 5%;
+      width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
+    align-items: center;
+    justify-content: center;
+  }
+  
+  * {
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+  }
+  body {
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    padding: 20px;
+  }
+  .wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .idPerfil {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  
+  
+  .card-body{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .card-body h5{
+      font-size: 1.5em;
+  }
+
+  

@@ -6,6 +6,7 @@
 
 body {
   width: 100vw;
+  background-color: rgb(255, 230, 247);
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -14,14 +15,16 @@ body {
 }
 
 .container {
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   gap: 2vh;
-  width: 80%;
+  width: 20%;
   height: auto;
   margin-bottom: 4vh;
+  padding: 5%;
+  border-radius: 20px;
 }
 
 .key {
@@ -30,18 +33,61 @@ body {
   right: 10px;
   opacity: 0.6;
 }
+
 .key:hover {
   cursor: pointer;
   opacity: 1;
 }
 
-input {
+#nome {
   padding: 5px;
   border: 2px solid #909090;
+  width: 95%;
+}
+
+#senha{
+  padding: 5px;
+  border: 2px solid #909090;
+  width: 100%;
 }
 
 #img{
   position: absolute;
   top: 4px;
   right: 8px;
+}
+
+.div{
+  width: 95%;
+}
+
+button{
+  width: 20%;
+  padding: 2%;
+  border: none;
+  background-color: rgb(255, 0, 170);
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  margin-top: 3%;
+  cursor: pointer;
+}
+
+a{
+  padding: 1%;
+  border: none;
+  background-color: rgb(255, 0, 170);
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  margin-top: 3%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+p{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-right: 5%;
 }

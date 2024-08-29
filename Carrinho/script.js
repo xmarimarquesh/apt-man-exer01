@@ -25,7 +25,7 @@ $(document).ready(function () {
 
       // Cria um botão de remoção
       const removeButton = $("<button>")
-        .text("❌")
+        .text("X")
         .css("margin-left", "10px")
         .click(function () {
           removerItemDoCarrinho(index);
@@ -33,9 +33,10 @@ $(document).ready(function () {
 
       // Adiciona o botão à lista
       listItem.append(removeButton);
-
+      
       // Adiciona o item à lista
       listaElement.append(listItem);
+      listaElement.append("<hr>");
 
       // Adiciona o preço do item ao total
       totalPreco += item.preco;

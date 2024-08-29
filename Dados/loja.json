@@ -45,7 +45,7 @@
     "imagem": "/img/produto6.webp",
     "preco": 40.0,
     "quantidade": 0,
-    "status": true
+    "status": false
   },
   {
     "id": 7,

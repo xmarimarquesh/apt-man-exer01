@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
           const cardStatus = document.createElement("div");
           cardStatus.className = "card-text";
-          cardStatus.textContent = ".";
+          cardStatus.style.height = "15px";
           if(produto.status === true){
             cardStatus.style.background = "green";
             }else{
