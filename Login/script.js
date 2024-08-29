@@ -16,7 +16,8 @@ function login() {
   btnFechar.href = "index.html";
   btnFechar.textContent = "Fechar";
 
-  
+  input1 = document.getElementById("nome");
+  input2 = document.getElementById("senha");
 
   document.body.appendChild(card);
   
@@ -36,6 +37,10 @@ function login() {
     card.style.background = "red";
     card.textContent = "Nome ou senha incorretos. ";
     card.appendChild(btnFechar);
+
+    input1.style.border = "2px solid red";
+    input2.style.border = "2px solid red";
+    
   }
 }
 

@@ -43,12 +43,18 @@ body {
   padding: 5px;
   border: 2px solid #909090;
   width: 95%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
 }
 
 #senha{
   padding: 5px;
   border: 2px solid #909090;
   width: 100%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
 }
 
 #img{
@@ -73,7 +79,7 @@ button{
   cursor: pointer;
 }
 
-.container a{
+p a{
   padding: 1%;
   border: none;
   background-color: rgb(255, 0, 170);
