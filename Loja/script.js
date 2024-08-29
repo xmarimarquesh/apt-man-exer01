@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const produtosContainer =
         document.getElementById("produtos-container");
 
-      produtos.map((produto, index) => {
+      produtos.forEach((produto, index) => {
         const card = document.createElement("div");
         card.className = "card";
         card.style.width = "18rem";
