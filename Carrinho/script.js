@@ -1,6 +1,6 @@
 $(document).ready(function () {
   // Recupera o carrinho do localStorage
-  const carrinho = JSON.parse(localStorage.getItem("market")) || [];
+  const carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
 
   // Elemento onde a lista será exibida
   const listaElement = $("#lista");
