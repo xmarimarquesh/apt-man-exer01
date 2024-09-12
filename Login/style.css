@@ -20,7 +20,7 @@ body {
   flex-direction: column;
   justify-content: center;
   gap: 2vh;
-  width: 20%;
+  width: 50%;
   height: auto;
   margin-bottom: 4vh;
   padding: 5%;
@@ -68,8 +68,8 @@ body {
 }
 
 button{
-  width: 20%;
-  padding: 2%;
+  width: 50%;
+  padding: 1%;
   border: none;
   background-color: rgb(255, 0, 170);
   border-radius: 10px;

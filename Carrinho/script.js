@@ -78,10 +78,10 @@ function gerarDocumentoWord() {
       <body>
         <h1>Pedido confirmado</h1>
         <h3>Agradecemos sua preferencia</h3>
-        ${lista}
+        ${listaHtml}
         <br>
         <br>
-        ${total}
+        ${totalHtml}
       </body>
     </html>
   `;
